@@ -35,5 +35,16 @@
     margin-right: auto;
   }
   .swiper-button-prev{
+    color: #8a3941;
+  }
+  .swiper-button-next {
+    color: #8a3941;
+  }
+  .swiper-pagination{
+
+  }
+  .swiper-pagination-bullet-active{
     background-color: #8a3941;
+    width: 10px;
+    height: 10px;
   }
