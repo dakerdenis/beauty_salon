@@ -455,12 +455,30 @@ to {
 .about__content__namedesc {
   color: #222222;
   text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.about__content__line{
+  width: 80px;
+  height: 2px;
+  background-color: #8a3941;
+  margin-bottom: 15px;
+}
+.about__content__name {
+  margin-top: 20px;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+.about__content__name span {
+  color: #8a3941;
 
 }
-.about__content__line{}
-.about__content__name {
-}
 .about__content__desc {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 
