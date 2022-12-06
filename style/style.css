@@ -587,7 +587,12 @@ position: relative;
   font-size: 24px;
   margin-top: 10px;
 }
+
 .services__element__line {
+}
+.services__element__text{
+  font-size: 14px;
+  
 }
 .services__element__link {
 }
