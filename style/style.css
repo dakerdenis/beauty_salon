@@ -573,6 +573,11 @@ position: relative;
   border-radius: 50%;
   background-color: #8a3941;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  font-size: 28px;
 }
 .services__element__content {
   font-size: 5px;
@@ -598,6 +603,8 @@ position: relative;
 .services__element__text{
   font-size: 14px;
   line-height: 24px;
+  max-height: 75px;
+  overflow: hidden;
 }
 .services__element__link {
   width: 100%;
