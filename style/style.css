@@ -538,6 +538,54 @@ to {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.services__element__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.services__element__image_img {
+  width: 100%;
+  height: 45%;
+position: relative;
+}
+.services__element__image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  
+}
+.services__element__image img {
+  max-width: 100%;
+  height: auto;
+}
+.services__element__small_image {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #8a3941;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.services__element__content {
+  font-size: 5px;
+  width: 100%;
+  height: 55%;
+}
+.services__element__name {
+}
+.services__element__line {
+}
+.services__element__link {
+}
+
 
 @media only screen and (max-width: 1199.98px) {
 .header__nav__element {
