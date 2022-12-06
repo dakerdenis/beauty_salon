@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -40,7 +40,7 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: "Noto Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   body.lock {
@@ -453,6 +453,9 @@ to {
   text-align: left;
 }
 .about__content__namedesc {
+  color: #222222;
+  text-transform: uppercase;
+
 }
 .about__content__line{}
 .about__content__name {
