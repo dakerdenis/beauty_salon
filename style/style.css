@@ -480,6 +480,62 @@ to {
   font-size: 16px;
   line-height: 25px;
 }
+.block__content__main__name{
+  padding-top: 2em;
+  margin-bottom: 2em;
+  color: #222222;
+  font-size: 30px;
+}
+/*************Servicess****************************/
+/*************Servicess****************************/
+/*************Servicess****************************/
+
+#element2{
+
+  width: 100%;
+  height: 100%;
+  background-image: url('../imgs/servis.jpg') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#element2 .block__content__main__name{
+  color: #eee;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.services__main__block__wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #8a394193;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__content__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.block__content__main__line{
+  width: 100px;
+  height: 2px;
+  background-color: #fafafa;
+  margin-bottom: 2.2em;
+}
+.services__content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+}
+.services__content__element {
+  width: 23%;
+  background-color: #fafafa;
+  height: 100%;
+}
 
 
 @media only screen and (max-width: 1199.98px) {
