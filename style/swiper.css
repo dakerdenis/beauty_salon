@@ -34,3 +34,6 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .swiper-button-prev{
+    background-color: #8a3941;
+  }
