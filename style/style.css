@@ -521,11 +521,30 @@ to {
   margin-bottom: 2em;
   color: #222222;
   font-size: 30px;
+  font-weight: 500;
 }
 
 
-
-
+.block__content__main__name_about{
+  font-size: 35px;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.about__content__link{
+  margin-top: 3.5em;
+}
+.about__content__link a {
+  background-color: #8a3941;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 28px;
+  border: 2px solid #8a3941;
+}
+.about__content__link a:hover{
+  background-color: #fff;
+  color: #8a3941;
+}
 /*************Servicess****************************/
 /*************Servicess****************************/
 /*************Servicess****************************/
@@ -663,6 +682,77 @@ position: relative;
   padding: 10px 17px;
 
 }
+/*****************contact**************************/
+/*****************contact**************************/
+/*****************contact**************************/
+/*****************contact**************************/
+/*****************contact**************************/
+#element4{
+  width: 100%;
+  background-color: antiquewhite;
+}
+.contact__main__block__wrapper {
+  background-color: turquoise;
+  width: 100%;
+  height: 100%;
+}
+
+.block__content__main__name_contact {
+  margin-bottom: 1.5em;
+  padding-top: 1em;
+  font-size: 35px;
+}
+.contact__block__map_wrapper {
+  width: 100%;
+  height: 90%;
+  background-color: #eee;
+  position: relative;
+}
+.contact__map__block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.contact__map__contact__info {
+  z-index: 3;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 20%;
+  height: 70%;
+  font-size: 10px;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.contact__with__block {
+}
+.contact__with__desc {
+}
+.contact__with__us__wrapper {
+}
+.contact__with__us_element {
+}
+.contact__with__us__desc {
+}
+.contact__with__us__adress {
+}
+.contact__with__us__adress_numbers {
+}
+.contact__with__us__social__wrapper {
+}
+.contact__with__us__social__img {
+}
+.fa {
+}
+.fa-whatsapp {
+}
+.fa-facebook {
+}
+.fa-instagram {
+}
+.fa-telegram {
+}
+
 
 @media only screen and (max-width: 1199.98px) {
 .header__nav__element {
