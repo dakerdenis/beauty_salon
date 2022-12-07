@@ -73,7 +73,7 @@ function burgerMenu(selector) {
     $(this).on('click', function(e) {
       
         var container = $(".floatingButton");
-        // if the target of the click isn't the container nor a descendant of the container
+
         if (!container.is(e.target) && $('.floatingButtonWrap').has(e.target).length === 0) 
         {
             if(container.hasClass('open'))
@@ -88,7 +88,7 @@ function burgerMenu(selector) {
             $('.floatingMenu').hide();
         }
       
-        // if the target of the click isn't the container and a descendant of the menu
+
         if(!container.is(e.target) && ($('.floatingMenu').has(e.target).length > 0)) 
         {
             $('.floatingButton').removeClass('open');
@@ -115,7 +115,7 @@ function burgerMenu(selector) {
         const scrollTarget = document.getElementById(href);
 
        // const topOffset = document.querySelector('.scrollto').offsetHeight;
-         const topOffset = 100; // если не нужен отступ сверху 
+         const topOffset = 100; 
         const elementPosition = scrollTarget.getBoundingClientRect().top;
         const offsetPosition = elementPosition - topOffset;
 
