@@ -762,18 +762,31 @@ position: relative;
   color: #8a3941;
 }
 .contact__with__us_element {
+  width: 100%;
+  margin-top: 8px;
+}
+.contact__with__us_element__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.contact__with_us__element__img {
+}
+.fa {
+}
+.fa-map-marker {
+}
+.contact_with__us__data {
 }
 .contact__with__us__desc {
 }
 .contact__with__us__adress {
 }
-.contact__with__us__adress_numbers {
-}
 .contact__with__us__social__wrapper {
 }
 .contact__with__us__social__img {
-}
-.fa {
 }
 .fa-whatsapp {
 }
@@ -783,7 +796,6 @@ position: relative;
 }
 .fa-telegram {
 }
-
 
 @media only screen and (max-width: 1199.98px) {
 .header__nav__element {
