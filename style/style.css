@@ -718,18 +718,44 @@ position: relative;
 .content__main__prices__page_wrapper {
   width: 100%;
   height: 100%;
-  background-color: antiquewhite;
+
   font-size: 12px;
 }
 .block__content__main__name {
+
 }
 .prices__block__wrapper {
+  width: 40%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .prices__block__element__name {
+  margin-top: 5px;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  padding: 7px;
+  font-size: 23px;
+  color: #8a3941;
+  border-bottom: 1px solid #22222211;
 }
 .prices__block__element {
+  width: 100%;
+  padding: 7px;
+  font-size: 18px;
+
+  border-bottom: 1px solid #22222211;
+  display: flex;
+  justify-content: space-between;
 }
 .prices__block__element_desc {
+
+  color: #222222;
+}
+.prices__block__element_desc:nth-child(2){
+  color: #8a3941;
 }
 /*****************contact**************************/
 /*****************contact**************************/
