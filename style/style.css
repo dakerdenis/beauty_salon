@@ -711,6 +711,26 @@ position: relative;
   padding: 10px 17px;
 
 }
+/****************Prices wrapper*************************/
+/****************Prices wrapper*************************/
+/****************Prices wrapper*************************/
+/****************Prices wrapper*************************/
+.content__main__prices__page_wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  font-size: 12px;
+}
+.block__content__main__name {
+}
+.prices__block__wrapper {
+}
+.prices__block__element__name {
+}
+.prices__block__element {
+}
+.prices__block__element_desc {
+}
 /*****************contact**************************/
 /*****************contact**************************/
 /*****************contact**************************/
