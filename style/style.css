@@ -724,8 +724,14 @@ position: relative;
 .block__content__main__name {
 
 }
+.block__content__main__name_prices{
+  color: #8a3941;
+  margin-bottom: 1em;
+  font-weight: 600;
+  font-size: 34px;
+}
 .prices__block__wrapper {
-  width: 40%;
+  max-width: 320px;
   margin: 0 auto;
   height: 100%;
   display: flex;
