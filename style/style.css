@@ -472,15 +472,29 @@ to {
   height: 150px;
   color: #222222;
   font-size: 45px;
-
+  
   line-height: 65px;
 }
+.slider__content__text2{
+  color: #F5F5F5;
+}
+
 .slider__content__text span {
   color: #8a3941;
   font-family: 'Allison', cursive;
   font-size: 60px;
 }
+.slider__content__text2 span {
+  color: #F5F5F5;
+}
+.slider__content__text3{
+  color: #8a3941;
+  top: 15%;
 
+}
+.slider__content__text3 span{
+  color: #8a3941;
+}
 /****************about block************************/
 /****************about block************************/
 /****************about block************************/
