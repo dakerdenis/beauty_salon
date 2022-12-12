@@ -450,7 +450,7 @@ to {
   width: 100%;
   position: relative;
   height: 100%;
-  background-color: red;
+
 }
 .slider__content__image {
   position: absolute;
@@ -774,6 +774,7 @@ position: relative;
   padding: 10px 17px;
 
 }
+
 /****************Prices wrapper*************************/
 /****************Prices wrapper*************************/
 /****************Prices wrapper*************************/
@@ -794,7 +795,7 @@ position: relative;
   font-size: 34px;
 }
 .prices__block__wrapper {
-  max-width: 320px;
+  width: 350px;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -825,6 +826,11 @@ position: relative;
 }
 .prices__block__element_desc:nth-child(2){
   color: #8a3941;
+}
+.prices__block__wrapper__wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 /*****************contact**************************/
 /*****************contact**************************/
@@ -1015,6 +1021,38 @@ position: relative;
   color: #F5F5F5;
 
 }
+@media only screen and (max-width: 1680px){
+  .contact__map__contact__info{
+    left: 6%;
+    width: 27%;
+    height: 75%;
+  }
+  .services__content__container {
+    width: 85%;
+  }
+  .about__wrapper {
+    width: 85%;
+  }
+} 
+@media only screen and (max-width: 1450px){
+  .header__container {
+    height: 70px;
+  }
+  .main__content {
+    margin-top: 70px;
+  }
+  .slider__block {
+    height: calc(100vh - 70px);
+  }
+  .header__nav__element a {
+    font-size: 20px;
+  }
+  .about__image__container {
+    width: 50%;
+  }
+}
+
+
 @media only screen and (max-width: 1199.98px) {
 .header__nav__element {
   margin-right: 40px;
