@@ -1050,6 +1050,25 @@ position: relative;
   .about__image__container {
     width: 50%;
   }
+  .contact__map__contact__info{
+    height: 68%;
+  }
+  .working__hours__element {
+    font-size: 17px;
+  }
+  .contact__with__us__adress {
+    font-size: 15px;
+  }
+  .contact__with_us__element__img{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .contact__with__us__social__img a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 1370px){
   .block__content__main__name_about {
@@ -1067,6 +1086,13 @@ position: relative;
   }
   .about__content__name {
     font-size: 29px;
+    line-height: 34px;
+  }
+  .block__content__main__line {
+    margin-bottom: 0em;
+  }
+  .services__content__wrapper {
+    margin-top: 1em;
   }
 }
 
