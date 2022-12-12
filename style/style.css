@@ -1056,6 +1056,18 @@ position: relative;
     margin-bottom: 0.9em;
     font-size: 28px;
   }
+  #element1{
+    padding-top: 1em;
+  }
+  .about__content__container {
+    width: 43%;
+  }
+  .content__block{
+    height: calc(100vh -15px);
+  }
+  .about__content__name {
+    font-size: 29px;
+  }
 }
 
 
