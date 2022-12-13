@@ -1248,6 +1248,15 @@ position: relative;
   width: 320px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.slider__content__text {
+  bottom: 10%;
+  width: 70%;
+  top: initial;
+}
+.slider__content__text3{
+  top: 20%;
+  bottom: initial;
+}
 }
 @media only screen and (max-width: 620px){
 .converter__wrapper__block{
@@ -1293,6 +1302,12 @@ position: relative;
 .about__element__wrapper{
   min-height: 395px;
   height: 395px;
+}
+.slider__content__text {
+  width: 90%;
+  font-size: 33px;
+  line-height: 50px;
+  bottom: 7%;
 }
 }
 @media only screen and (max-width: 427px) {
