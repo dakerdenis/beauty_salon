@@ -152,13 +152,13 @@
 
 .burger-menu_button {
   position: fixed;
-  top: 10px;
+  top: -5px;
   right: 10px;
   z-index: 30;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
+
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -1127,7 +1127,26 @@ position: relative;
   font-size: 34px;
 }
 }
-
+@media only screen and (max-width: 1290px){
+  .contact__map__contact__info {
+    height: 74%;
+    top: 2%;
+    width: 30%;
+  }
+  .services__content__container {
+    width: 92%;
+  }
+  .about__image__container img {
+    width: 100%;
+    height: auto;
+  }
+  .about__wrapper {
+    height: 460px;
+  }
+  .block__content__main__name_contact{
+    margin-bottom: 0.5em;
+  }
+} 
 
 @media only screen and (max-width: 1199.98px) {
 .header__nav__element {
