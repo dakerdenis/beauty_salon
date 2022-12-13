@@ -1094,6 +1094,38 @@ position: relative;
   .services__content__wrapper {
     margin-top: 1em;
   }
+  .working__hours__element {
+    font-size: 14px;
+    padding: 8px 0px;
+  }
+  .contact__with__desc {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .contact__with__us__desc_text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .contact__with__us_element__wrapper{
+    height: 40px;
+  }
+  .contact__with__us__desc {
+    font-size: 15px;
+  }
+  .services__element__image img{
+    width: 100%;
+    height: 100%;
+  }
+  .services__element__name{
+    height: 40px;
+    font-size: 23px;
+  }
+  .services__element__link a {
+    font-size: 14.5px;
+  }
+#element2 .block__content__main__name{
+  font-size: 34px;
+}
 }
 
 
